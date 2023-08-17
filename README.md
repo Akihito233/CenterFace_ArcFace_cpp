@@ -42,3 +42,22 @@ mkdir build
 cd build && cmake .. && make
 ./demo ../data/videos/video-1.mp4 video-1-result
 ```
+
+## 引用及参考
+
+```
+@inproceedings{CenterFace,
+title={CenterFace: Joint Face Detection and Alignment Using Face as Point},
+author={Xu, Yuanyuan and Yan, Wan and Sun, Haixin and Yang, Genke and Luo, Jiliang},
+booktitle={arXiv:1911.03599},
+year={2019}
+}
+@misc{lite.ai.toolkit2021,
+  title={lite.ai.toolkit: A lite C++ toolkit of awesome AI models.},
+  url={https://github.com/DefTruth/lite.ai.toolkit},
+  note={Open-source software available at https://github.com/DefTruth/lite.ai.toolkit},
+  author={Yan Jun},
+  year={2021}
+}
+deepinsight/insightface
+```
